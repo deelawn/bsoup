@@ -16,6 +16,9 @@ $ cd soupex
 $ virtualenv env
 $ source env/bin/activate
 $ pip install beautifulsoup4
+$ pip install requests
+$ pip freeze > requirements.txt
+$ deactivate
 ```
 
 ## Instructions
