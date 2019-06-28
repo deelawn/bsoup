@@ -29,7 +29,7 @@ $ deactivate
   import requests, os
   from bs4 import BeautifulSoup
   ```
-2. Using the requests library, send a git request to `http://nytimes.com/` and assign the response to a variable `r`.
+2. Using the requests library, send a GET request to `http://nytimes.com/` and assign the response to a variable `r`.
 3. Next, convert the response to text using a built-in Python method `.text()` and assign the result to a new variable.
 4. After that, pass that new variable to BeautifulSoup, passing the result from THAT to a new variable.
 5. Next, we need to find all of the H2s within the class type `story-heading`. First create a variable called `title_list`. Assign that to the result of calling BeautifulSoup's `find_all()` function. Consult the [Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for more information.
